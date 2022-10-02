@@ -11,14 +11,15 @@
         <Label Content="Prijs" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top"/>
         <Label Content="Aantal" HorizontalAlignment="Left" Margin="60,200,0,0" VerticalAlignment="Top"/>
         <Label Content="Te betalen" HorizontalAlignment="Left" Margin="60,250,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="TxtOndernemingsnummer" HorizontalAlignment="Left" Margin="224,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtOndernemingsnummer_TextChanged"/>
-        <TextBox Name="TxtPrijs" HorizontalAlignment="Left" Margin="224,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtPrijs_TextChanged"/>
-        <TextBox Name="TxtAantal" HorizontalAlignment="Left" Margin="224,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtAantal_TextChanged"/>
-        <TextBox Name="TxtTeBetalen" HorizontalAlignment="Left" Margin="224,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtTeBetalen_TextChanged"/>
-        <Button Name="BtnControleNummer" Content="Controle nummer" HorizontalAlignment="Left" Margin="400,105,0,0" VerticalAlignment="Top" Width="100" Click="BtnControleNummer_Click"/>
-        <Button Name="BtnBerekenen" Content="Berekenen" HorizontalAlignment="Left" Margin="400,155,0,0" VerticalAlignment="Top" Click="BtnBerekenen_Click" Width="100"/>
-        <Button Name="BtnWissen" Content="Wissen" HorizontalAlignment="Left" Margin="400,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,5.563" Click="BtnWissen_Click" Width="100"/>
-        <Button Name="BtnSluiten" Content="Sluiten" HorizontalAlignment="Left" Margin="400,255,0,0" VerticalAlignment="Top" Width="100" Click="BtnSluiten_Click"/>
+        <TextBox Name="TxtOndernemingsnummer" HorizontalAlignment="Left" Margin="224,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" />
+        <TextBox Name="TxtPrijs" HorizontalAlignment="Left" Margin="224,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox Name="TxtAantal" HorizontalAlignment="Left" Margin="224,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox Name="TxtTeBetalen" HorizontalAlignment="Left" Margin="224,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Button Name="BtnControleNummer" Content="Controle nummer" HorizontalAlignment="Left" Margin="450,105,0,0" VerticalAlignment="Top" Width="100" Click="BtnControleNummer_Click"/>
+        <Button Name="BtnBerekenen" Content="Berekenen" HorizontalAlignment="Left" Margin="450,155,0,0" VerticalAlignment="Top" Click="BtnBerekenen_Click" Width="100"/>
+        <Button Name="BtnWissen" Content="Wissen" HorizontalAlignment="Left" Margin="450,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,5.563" Click="BtnWissen_Click" Width="100"/>
+        <Button Name="BtnSluiten" Content="Sluiten" HorizontalAlignment="Left" Margin="450,255,0,0" VerticalAlignment="Top" Width="100" Click="BtnSluiten_Click"/>
+        <TextBox Name="TxtControleNummer" HorizontalAlignment="Left" Margin="334,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
 
     </Grid>
 </Window>

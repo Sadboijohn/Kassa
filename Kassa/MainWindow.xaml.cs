@@ -25,29 +25,14 @@ namespace Kassa
             InitializeComponent();
         }
 
-        private void TxtOndernemingsnummer_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TxtPrijs_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TxtAantal_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TxtTeBetalen_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+     
 
         private void BtnControleNummer_Click(object sender, RoutedEventArgs e)
         {
-
+            float ondernemingsNummer = Convert.ToSingle(TxtOndernemingsnummer.Text);
+            ondernemingsNummer = ondernemingsNummer % 97;
+            float controleNummer = 97 - ondernemingsNummer;
+            TxtControleNummer.Text= controleNummer.ToString();
         }
         private void BtnBerekenen_Click(object sender, RoutedEventArgs e)
         {
@@ -65,6 +50,7 @@ namespace Kassa
             TxtPrijs.Text = "";
             TxtAantal.Text = "";
             TxtTeBetalen.Text = "";
+            TxtControleNummer.Text = "";
 
         }
 
